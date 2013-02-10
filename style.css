@@ -1,0 +1,145 @@
+*,html { margin:0; padding:0; }
+
+body {
+	background: #eee; /* url('images/bg.png');*/
+	font-size: 100%;
+}
+
+a { color: #61809D; }
+
+header, #gas, #page, #footer {
+	clear: both;
+	width: 950px;
+	margin: 0 auto 0 auto;
+}
+
+#header {
+	overflow: hidden;
+	padding: 3px 0 3px 0;
+	border-bottom: 1px solid #fff;
+	
+	box-shadow: 3px 3px 6px -2px #bbb;
+	-moz-box-shadow: 3px 3px 6px -2px #bbb;
+	-webkit-box-shadow: 3px 3px 6px -2px #bbb;
+	-o-box-shadow: 3px 3px 6px -2px #bbb;
+
+	background: linear-gradient(#fff, #eee);
+	background: -moz-linear-gradient(center top,
+		#fff 30%, #eee 70%) repeat;
+	background: -webkit-gradient(linear, 
+		left top, left bottom, from(#fff), to(#eee));
+	background: -o-linear-gradient(#fff, #eee);
+}
+
+header a#logo {
+	float: left; width: 146px; height: 34px;
+	/*background: url('images/cmxdb.png') top left no-repeat;*/
+}
+
+#gas {
+	margin: 15px auto 10px auto;
+}
+
+#page {
+	overflow: hidden;
+
+	background-color: #fff;
+	border: 1px solid #ccc;
+
+	-moz-box-shadow: 0 0 5px #ccc;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	-o-box-shadow: 0 0 5px #ccc;
+	box-shadow: 0 0 5px #ccc;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#content {
+	float: left;
+	width: 660px;
+	min-height: 500px;
+	padding: 10px;
+	color: #333;
+	background-color: #fff;
+}
+
+.comics {
+	margin-bottom: 10px;
+}
+
+#content h4 {
+	margin-bottom: 5px;
+	padding: 3px;
+	color: #696065;
+	font-weight: normal;
+	background-color: #EBECF0;
+	border: 1px solid #C5C5D1;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#content hr {
+	margin: 4px 0 4px 0;
+}
+
+#content img {
+	min-width: 660px;
+	max-width: 660px;
+}
+
+#sidebar {
+	float: right;
+	width: 250px;
+	padding: 10px;
+	background-color: #f5f5f5;
+}
+
+#sidebar select {
+	width: 250px;
+	height: 550px;
+	border: 1px solid #ccc;
+}
+
+#sidebar .group {
+	padding-top: 4px;
+	color: #777; text-align: center;
+	border-top: 1px solid #c4c5ca;
+	/*background: url('../images/hbg.png') repeat-x;*/
+}
+
+#sidebar .option {
+	padding: 2px 0 2px 0;
+	border-top: 1px solid #c4c5ca;
+	color: #444; text-align: left;
+	background-color: #eee;
+}
+
+#sidebar .option:hover {
+	background-color: #d4d5da;
+	color: #000;
+}
+
+#sidebar .button {
+	width: 250px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+#footer {
+	margin-bottom: 20px;
+	padding: 10px;
+	color: #777;
+	font: 90% sans-serif;
+}
+
+#footer a { color: #61809D; }
+#footer a:hover { color: #11809A; }
+
+.left { float: left; }
+.right { float: right; }
