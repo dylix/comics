@@ -1,5 +1,5 @@
 #!/bin/sh
 
-/srv/http/comics/getcomics.sh > /srv/http/comics/tmp.json
-cat /srv/http/comics/tmp.json | sed '$s/,$//' > /srv/http/comics/comics.json
-echo "]}" >> /srv/http/comics/comics.json
+/bin/sh /srv/http/comics/getcomics.sh > /srv/http/comics/tmp.json
+/usr/bin/cat /srv/http/comics/tmp.json | /usr/bin/sed '$s/,$//' > /srv/http/comics/comics.json
+/usr/bin/echo "]}" >> /srv/http/comics/comics.json

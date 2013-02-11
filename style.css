@@ -126,7 +126,8 @@ header a#logo {
 }
 
 #sidebar .button {
-	width: 250px;
+	/*width: 250px;*/
+	width: 120px;
 	height: 30px;
 	margin-top: 10px;
 }

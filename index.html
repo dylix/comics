@@ -10,19 +10,23 @@
 	<link rel="stylesheet" href="style.css">
 	<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>-->
 	<script type="text/javascript" src="/backend/jquery-1.9.1.min.js"></script>
+	<!--<script type="text/javascript" src="/backend/js/jquery.cookies.2.2.0.min.js"></script>-->
+	<script type="text/javascript" src="/backend/js/jquery.cookie.js"></script>
 	<script type="text/javascript" src="comics.js"></script>
 </head>
 <body>
 	<div id="header">
-	<header> <a href="clear" id="logo"> </a> </header>
+	<header> <a href="clear" id="logo"> </a>Check out my <a href="/r/">reddit</a> script too! </header>
 	</div> <!--#header-->
 	<div id="page">
 	<div id="content">
 		<div class="comics" id="comicstrip"><h4>Please select a comic from the list</h4></div>
 	</div> <!--#content-->
 	<div id="sidebar">
-		<form action="#" method="post">
+		<form action="" method="post">
 		<select id="menu" multiple="multiple"></select>
+		<input id="rememberme" type="button" value="Remember" class="button">
+		<input id="clear" type="button" value="Clear" class="button">
 		</form>
 	</div> <!--#sidebar-->
 	</div> <!--#page-->
