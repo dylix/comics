@@ -6,7 +6,7 @@
 *,html { margin:0; padding:0; }
 
 body {
-	background: #eee;
+	background: #eee; /* url('images/bg.png');*/
 	font-size: 100%;
 }
 
@@ -38,6 +38,11 @@ header, #gas, #page, #footer {
 
 header a#logo {
 	float: left; width: 146px; height: 34px;
+	/*background: url('images/cmxdb.png') top left no-repeat;*/
+}
+
+#gas {
+	margin: 15px auto 10px auto;
 }
 
 #page {
@@ -45,6 +50,7 @@ header a#logo {
 
 	background-color: #fff;
 	border: 1px solid #ccc;
+
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
 	-o-box-shadow: 0 0 5px #ccc;
@@ -76,6 +82,7 @@ header a#logo {
 	font-weight: normal;
 	background-color: #EBECF0;
 	border: 1px solid #C5C5D1;
+
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-o-border-radius: 5px;
@@ -84,6 +91,14 @@ header a#logo {
 
 #content hr {
 	margin: 4px 0 4px 0;
+}
+
+#content img {
+	/*min-width: 660px;
+	max-width: 660px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;*/
 }
 
 #sidebar {
@@ -103,6 +118,7 @@ header a#logo {
 	padding-top: 4px;
 	color: #777; text-align: center;
 	border-top: 1px solid #c4c5ca;
+	/*background: url('../images/hbg.png') repeat-x;*/
 }
 
 #sidebar .option {
@@ -118,6 +134,7 @@ header a#logo {
 }
 
 #sidebar .button {
+	/*width: 250px;*/
 	width: 120px;
 	height: 30px;
 	margin-top: 10px;
