@@ -145,7 +145,6 @@ http://www.gocomics.com/jimsjournal
 http://www.gocomics.com/joevanilla
 http://www.gocomics.com/jumpstart
 http://www.gocomics.com/thekchronicles
-http://www.gocomics.com/kidcity
 http://www.gocomics.com/kidspot
 http://www.gocomics.com/kitandcarlyle
 http://www.gocomics.com/kitchen-capers
@@ -165,7 +164,6 @@ http://www.gocomics.com/looseparts
 http://www.gocomics.com/the-lost-bear
 http://www.gocomics.com/lostsideofsuburbia
 http://www.gocomics.com/lostsheep
-http://www.gocomics.com/loveis
 http://www.gocomics.com/luann
 http://www.gocomics.com/luckycow
 http://www.gocomics.com/mac
@@ -240,7 +238,6 @@ http://www.gocomics.com/shoecabbage
 http://www.gocomics.com/shortcuts
 http://www.gocomics.com/skinhorse
 http://www.gocomics.com/skippy
-http://www.gocomics.com/slowpoke
 http://www.gocomics.com/soup-to-nutz
 http://www.gocomics.com/speedbump
 http://www.gocomics.com/spot-the-frog
@@ -252,7 +249,6 @@ http://www.gocomics.com/sylvia
 http://www.gocomics.com/tankmcnamara
 http://www.gocomics.com/tarzan
 http://www.gocomics.com/ten-cats
-http://www.gocomics.com/terratopia
 http://www.gocomics.com/that-is-priceless
 http://www.gocomics.com/thats-life
 http://www.gocomics.com/thatababy

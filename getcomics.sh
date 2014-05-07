@@ -23,10 +23,12 @@ for URL in $(cat $WEBROOT/urls.txt); do
 	cat /tmp/url.html | grep "twitter:title" | awk '/content/{gsub(/.*content/,"");print $0}' | sed 's/ by.*//' | awk '{gsub("=\"",""); printf "{ \"title\":\""$0"\","}'
 	echo -n "\"id\":\""$count"\","
 	cat /tmp/url.html | grep "twitter:title" | awk '/content/{gsub(/.*content/,"");print $0}' | awk -F , '{print $1}' | awk '/by /{gsub(/.*by /,""); printf "\"author\":\""$0"\","}'
-	cat /tmp/url.html | grep "twitter:url\"" | awk '/content/{gsub(/.*content/,"");print $0}' | awk '{gsub("=\"",""); gsub("\">",""); printf "\"url\":\""$0"\","}'
-	cat /tmp/url.html | grep "twitter:image\"" | awk '/content/{gsub(/.*content/,"");print $0}' | awk '{gsub("=\"",""); gsub("\">",""); printf "\"image\":\""$0"\","}'
-	cat /tmp/url.html | grep "twitter:image:width\"" | awk '/content/{gsub(/.*content/,"");print $0}' | awk '{gsub("=\"",""); gsub("\">",""); printf "\"width\":\""$0"\","}'
-	cat /tmp/url.html | grep "twitter:image:height\"" | awk '/content/{gsub(/.*content/,"");print $0}' | awk '{gsub("=\"",""); gsub("\">",""); printf "\"height\":\""$0"\"},"}'
+	#cat /tmp/url.html | grep "twitter:url\"" | awk '/content/{gsub(/.*content/,"");print $0}' | awk '{gsub("=\"",""); gsub("\">",""); printf "\"url\":\""$0"\","}'
+	cat /tmp/url.html | grep "twitter:url\"" | awk '/content/{gsub(/.*content/,"");print $0}' | awk '{gsub("=\"",""); gsub("\" />",""); printf "\"url\":\""$0"\","}'
+	cat /tmp/url.html | grep "twitter:image\"" | awk '/content/{gsub(/.*content/,"");print $0}' | awk '{gsub("=\"",""); gsub("\" />",""); printf "\"image\":\""$0"\","}'
+	#cat /tmp/url.html | grep "twitter:image:width\"" | awk '/content/{gsub(/.*content/,"");print $0}' | awk '{gsub("=\"",""); gsub("\">",""); printf "\"width\":\""$0"\","}'
+	cat /tmp/url.html | grep "twitter:image:width\"" | awk '/content/{gsub(/.*content/,"");print $0}' | awk '{gsub("=\"",""); gsub("\" />",""); printf "\"width\":\""$0"\","}'
+	cat /tmp/url.html | grep "twitter:image:height\"" | awk '/content/{gsub(/.*content/,"");print $0}' | awk '{gsub("=\"",""); gsub("\" />",""); printf "\"height\":\""$0"\"},"}'
 	let "count+=1"
 done
 
